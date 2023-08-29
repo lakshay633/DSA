@@ -7,19 +7,19 @@ int main()
     cout<<""<<a.capacity() <<endl;  //amount of storage possible
     cout<<""<<a.size() <<endl<<endl;      //no. of elements stored
     cout<<"inserting values and seeing changes in capacity and size"<<endl;
-    a.push_back(1);
+    a.push_back(10);
     cout<<a.capacity() <<endl;  
     cout<<a.size() <<endl<<endl;      
-    a.push_back(2);
+    a.push_back(20);
     cout<<a.capacity() <<endl;  
     cout<<a.size() <<endl<<endl;  
-    a.push_back(3);
+    a.push_back(30);
     cout<<a.capacity() <<endl;  
     cout<<a.size() <<endl<<endl;  
-    a.push_back(4);
+    a.push_back(40);
     cout<<a.capacity() <<endl;  
     cout<<a.size() <<endl<<endl;  
-    a.push_back(5);
+    a.push_back(50);
     cout<<a.capacity() <<endl;  
     cout<<a.size() <<endl<<endl;  
     cout<<"deleting values and seeing changes in capacity and size"<<endl;
