@@ -26,5 +26,7 @@ int main()
     a.pop_back();
     cout<<a.capacity() <<endl;  
     cout<<a.size() <<endl<<endl;  
+    vector <int> b(5,1);
+    
     return 0;
 }
