@@ -26,7 +26,7 @@ int main()
     a.pop_back();
     cout<<a.capacity() <<endl;  
     cout<<a.size() <<endl<<endl;  
-    vector <int> b(5,1);
-    
+    vector <int> b(5,1);   //b={1,1,1,1,1}
+    ector <int> c(b);   //creating a copy of b named c
     return 0;
 }
