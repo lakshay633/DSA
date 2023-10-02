@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>      // vector is dynamic array .... it doubles its size in case of overflooding
+#include <vector>      // vector is dynamic array ... it doubles its size in case of overflooding
 using namespace std;
 int main()
 {
