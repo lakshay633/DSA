@@ -6,11 +6,14 @@ int main()
     cout <<"the address of num storage is "<<&num<<endl;   // address of operator :- &
     
     int *ptr = &num;
+    // int *ptr = 0;   other way to initialize or edit value of ptr
+    // ptr = &num;      *p nahi hoga
+
     cout << "*ptr = "<<*ptr<<endl;      // derefernce operator :- *
     cout << "ptr = "<<ptr<<endl; 
     cout << "&ptr = "<<&ptr<<endl; 
     cout << "size of num = "<<sizeof(num)<<endl; 
-    cout << "size of ptr = "<<sizeof(ptr)<<endl;
+    cout << "size of ptr = "<<sizeof(ptr)<<endl<<endl;
 
     double d = 11.1;
     double *p2 = &d;
