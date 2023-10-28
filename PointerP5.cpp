@@ -32,7 +32,7 @@ int main()
     cout <<num<<endl;
     cout <<p<<endl;
     cout <<q<<endl;
-    update(q);
+    update(q);        // or update(&p)
     cout <<"after function"<<endl;
     cout <<num<<endl;
     cout <<p<<endl;
