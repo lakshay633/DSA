@@ -1,4 +1,4 @@
-// height of a binary tree
+// iterative inorder and preorder
 #include <iostream>
 #include <stack>
 using namespace std;
